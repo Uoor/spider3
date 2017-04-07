@@ -1,5 +1,4 @@
-/cn
-./.idea/*
+.idea
 *.class
 ./out/*
 out

@@ -15,10 +15,14 @@ public class MainAddressSplit {
 	public static String[] flag6list = {"自治州", "地区", "市", "盟"};
 	public static String[] flag5list = {"自治县", "自治旗", "林区", "特区", "县", "区", "旗"};
 	public static String[] flag4list = {"乡", "镇", "街道", "民族乡", "苏木"};
+	//道路名 +
 	public static String[] flag3list = { "大道","大街", "胡同", "横路", "横街", "纵路", "纵街", "弄", "线","路", "街", "巷", "条"};
+	//小区住宅名 +
 	public static String[] flag2list = {"小区","公寓", "村", "沟", "屯",  "里", "坊", "横", "队", "社",  
 	                                    "大厦", "商场", "商城", "公司", "宾馆", "别墅", "商店", "所"};
+	//门牌号
 	public static String[] flag1list = {"栋", "号楼", "楼", "座", "型", "阁", "号"};
+	//楼牌号
 	public static String[] flag0list = {"#", "楼", "层", "室", "房","组" ,"号"};
 
 	public static String[][] FlagLevel = {flag0list, flag1list,flag2list,flag3list,flag4list,flag5list,flag6list,flag7list};
@@ -35,8 +39,8 @@ public class MainAddressSplit {
     	 //String add2 =   "江苏省无锡市新区旺庄街道新光村三墩巷";
     	// String add2 =   "江苏省南京市江宁区华府小区30栋401室";
     	 //String add2 =   "江苏省盐城市盐都区忠孝街道西大街华府小区401室";
-    	String add1 =  "句容市华阳镇AA小区30号401组";
-    	String add2 =  "江苏省句容市华阳镇AA小区30栋401室";
+    	String add1 =  "厦门市思明区槟榔西里197号第四层K8单元";
+    	String add2 =  "厦门市槟榔西里197号第四层K8单元";
 		//String add1 =  "句容市";
 		//String add2 =  "江苏省句容市";
     	
