@@ -53,7 +53,7 @@ public class levenshtein {
 //        String tar = "hello";  
     	
     	   String src = "上海";
-           String tar = "上海市";  
+           String tar = "上海市";
            
         System.out.println("sim="+levenshtein.similarity(src, tar));  
     }  

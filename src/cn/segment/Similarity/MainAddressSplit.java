@@ -13,7 +13,7 @@ public class MainAddressSplit {
 	
 	public static String[] flag7list = {"特别行政区","自治区", "省"};  //考虑直辖市
 	public static String[] flag6list = {"自治州", "地区", "市", "盟"};
-	public static String[] flag5list = {"自治县", "自治旗", "林区", "特区", "县", "区", "旗"};
+	public static String[] flag5list = {"自治县", "自治旗", "林区", "特区", "县", "区", "旗"};//考虑县级市
 	public static String[] flag4list = {"乡", "镇", "街道", "民族乡", "苏木"};
 	//道路名 +
 	public static String[] flag3list = { "大道","大街", "胡同", "横路", "横街", "纵路", "纵街", "弄", "线","路", "街", "巷", "条"};
@@ -30,20 +30,21 @@ public class MainAddressSplit {
 	 
 	
     public static void main(String[] args){
-    	LevelMap cdict = new LevelMap();
     	citySet = LevelMap.getCitySet();
     	
     	
-    	//String add1 =  "南京市江宁区华府小区30栋401室";
-    	 //String add1 =  "江苏省建湖县飞天小区30栋401室";
-    	 //String add2 =   "江苏省无锡市新区旺庄街道新光村三墩巷";
-    	// String add2 =   "江苏省南京市江宁区华府小区30栋401室";
-    	 //String add2 =   "江苏省盐城市盐都区忠孝街道西大街华府小区401室";
-    	String add1 =  "厦门市思明区槟榔西里197号第四层K8单元";
+/*
+
+    	String add1 =  "福建省厦门市思明区槟榔西里197号第四层K8单元";
     	String add2 =  "厦门市槟榔西里197号第四层K8单元";
-		//String add1 =  "句容市";
-		//String add2 =  "江苏省句容市";
-    	
+*/
+/*
+*这种情况，只有最后一位路符合条件，最后一位将会不符合
+		String add1 =  "泉州市晋江市安海镇恒安工业城南环路";
+		String add2 =  "泉州市安海镇恒安工业城南环路";
+    */
+		String add1 =  "泉州市晋江市安海镇恒安工业城南环路";
+		String add2 =  "泉州市安海镇恒安工业城南环路";
     	//System.out.println("sim="+ levenshtein.similarity(add1, add2));  
     	 
     	addressMap1 = address_to_Map(add1,addressMap1);
@@ -59,7 +60,7 @@ public class MainAddressSplit {
     	System.out.println(CompareAddress(addressMap1,addressMap2));
     }
 
-	//地址 分词，逆向分词
+	//地址 分词
 	public static NavigableMap<String, String> address_to_Map(String address, NavigableMap<String, String> addressMap22){
     	String leftinfo = address;
 
@@ -73,19 +74,12 @@ public class MainAddressSplit {
  
     	  for(String flag: temp_list){
     		if(leftinfo.contains(flag)){
-    		 	
-            //  if(flag.equals("区") && leftinfo.contains("地区")&& leftinfo.contains("自治区"))
-//    			if(flag.equals("街")){
-//    			 if( String.valueOf(leftinfo.charAt(leftinfo.indexOf("街")+1)).equals("道") )
-//    				 break;
-//    			}
 
     			int len = leftinfo.split(flag).length;
     			if(i==0){
 
     			  if(leftinfo.split(flag).length == 1)
     				leftinfo = leftinfo.split(flag)[0];
-    			 
     			}
     			else if(leftinfo.split(flag).length == 2){
     			  String item = leftinfo.split(flag)[1];
@@ -98,7 +92,10 @@ public class MainAddressSplit {
     				//如果被切割为多个部分，取最后一部分
     			  String[] itemList = leftinfo.split(flag);
     			  int k=0;
-     
+     			  if(itemList.length == 1) {
+					  continue;
+				  }
+
     			  leftinfo = itemList[0];
     			  while(k < itemList.length-1){
     				  leftinfo = leftinfo + flag + itemList[k];
@@ -118,8 +115,7 @@ public class MainAddressSplit {
     	  i++;
     	}
 
-    	//用于确定省份
-    	boolean isprovince = true;
+
     	/*
     	if(leftinfo.length()>2) {     //减少查询次数
     		for(String city: citySet){
@@ -139,16 +135,18 @@ public class MainAddressSplit {
 				   break;
 				}
     		}
-    		
+
     		if(isprovince)   //黑龙江这些
 				//addressMap22.put("key8", leftinfo);
     			addressMap22.put("key7", leftinfo);
-    			
+
     	}
     	else
 			//addressMap22.put("key8", leftinfo);
     		addressMap22.put("key7", leftinfo);
     	*/
+		//用于确定省份
+		boolean isprovince = true;
 
 		     //减少查询次数,至少有市一级别
 			for(String city: citySet){
