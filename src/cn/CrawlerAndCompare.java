@@ -18,6 +18,7 @@ public class CrawlerAndCompare {
 
 	public static void main(String[] args) {
 		boolean isOk = false;
+		//---------------通过 完全匹配-----------------
 		//Step1 通过 地图API
 		HashMap<Integer,String> map = Amap.getAddByAmap("厦门市美亚柏科信息股份有限公司");
 		// 对地址进行处理，取除掉空格
@@ -42,6 +43,14 @@ public class CrawlerAndCompare {
 			//step3 baidu直接搜索 爬虫
 			//todo 整合
 		}
+
+
+
+
+		//------------------通过地址库（词典库） 最大正向匹配------------------
+
+
+		//-----------------通过 机器学习匹配可参考 hanlp分词----------------- -
 
 
 

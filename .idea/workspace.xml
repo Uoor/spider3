@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2bb59fd-54e5-44b2-932b-a460ca858635" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/CrawlerAndCompare.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/Geocoding/AddCodeAdd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/match/MatchAddress.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/segment/SegmentAddress.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/segment/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/util/CharToNumber.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/spider3/cn/segment/Similarity/temp.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/segment/Similarity/MainAddressSplit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/segment/Similarity/Test.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/segment/Geocoding/GetCityCode.java" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/Geocoding/GetCityCode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/segment/Geocoding/GetGeocoding.java" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/Geocoding/GetGeocoding.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/segment/Geocoding/GetLocationDetail.java" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/Geocoding/GetLocationDetail.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/segment/Geocoding/LocationMap.java" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/Geocoding/LocationMap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/segment/Geocoding/Parser_Tool.java" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/Geocoding/Parser_Tool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/segment/Similarity/LevelMap.java" afterPath="$PROJECT_DIR$/src/cn/util/LevelMap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/segment/Similarity/RABI.java" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/segment/RABI.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/segment/Similarity/ReverseSplit.java" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/segment/ReverseSplit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/segment/Similarity/RuleMatch.java" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/segment/RuleMatch.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/segment/Similarity/levenshtein.java" afterPath="$PROJECT_DIR$/src/cn/util/levenshtein.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/segment/Similarity/temp.txt" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/segment/temp.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/json_lib_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/json_lib_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ljq.csv" afterPath="$PROJECT_DIR$/ljq.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider3.iml" afterPath="$PROJECT_DIR$/spider3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/crawler/mapApi/Amap.java" afterPath="$PROJECT_DIR$/src/cn/crawler/mapApi/Amap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/crawler/mapApi/BaiduMap.java" afterPath="$PROJECT_DIR$/src/cn/crawler/mapApi/BaiduMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/test/Test.java" afterPath="$PROJECT_DIR$/src/cn/test/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/CrawlerAndCompare.java" afterPath="$PROJECT_DIR$/src/cn/CrawlerAndCompare.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/segmentAndMatch/segment/SegmentAddress.java" afterPath="$PROJECT_DIR$/src/cn/segmentAndMatch/segment/SegmentAddress.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +24,8 @@
       <file leaf-file-name="CrawlerAndCompare.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/CrawlerAndCompare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,16 +66,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/segmentAndMatch/segment/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="48" column="34" lean-forward="false" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GetLocationDetail.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/segmentAndMatch/Geocoding/GetLocationDetail.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,17 +99,27 @@
       <file leaf-file-name="SegmentAddress.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/segmentAndMatch/segment/SegmentAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="103" column="10" lean-forward="false" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+            <state relative-caret-position="6">
+              <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatchAddress.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatchAddress.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/segmentAndMatch/match/MatchAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="-395">
               <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -186,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/cn/test/SingleThreadExecutorTest.java" />
         <option value="$PROJECT_DIR$/src/cn/segment/Geocoding/GetCityCode.java" />
         <option value="$PROJECT_DIR$/src/cn/segment/Geocoding/GetGeocoding.java" />
@@ -200,11 +173,12 @@
         <option value="$PROJECT_DIR$/src/cn/segmentAndMatch/segment/RuleMatch.java" />
         <option value="$PROJECT_DIR$/src/cn/segmentAndMatch/segment/MainAddressSplit.java" />
         <option value="$PROJECT_DIR$/src/cn/segmentAndMatch/segment/Test.java" />
-        <option value="$PROJECT_DIR$/src/cn/segmentAndMatch/segment/SegmentAddress.java" />
         <option value="$PROJECT_DIR$/src/cn/util/levenshtein.java" />
         <option value="$PROJECT_DIR$/src/cn/util/CharToNumber.java" />
-        <option value="$PROJECT_DIR$/src/cn/CrawlerAndCompare.java" />
         <option value="$PROJECT_DIR$/src/cn/segmentAndMatch/match/MatchAddress.java" />
+        <option value="$PROJECT_DIR$/src/cn/CrawlerAndCompare.java" />
+        <option value="$PROJECT_DIR$/src/cn/segmentAndMatch/segment/SegmentAddress.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -880,12 +854,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491617540500</updated>
-      <workItem from="1491617542082" duration="31805000" />
+      <workItem from="1491617542082" duration="32845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31805000" />
+    <option name="totallyTimeSpent" value="32845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -900,13 +874,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20588236" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51547986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25338647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26693228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1026,14 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="806" column="17" lean-forward="false" selection-start-line="806" selection-start-column="17" selection-end-line="806" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1201,14 +1167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/segmentAndMatch/segment/SegmentAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="103" column="10" lean-forward="false" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/util/levenshtein.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -1227,8 +1185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/CrawlerAndCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1237,11 +1195,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/segmentAndMatch/match/MatchAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="-395">
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/segmentAndMatch/segment/SegmentAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

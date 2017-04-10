@@ -1,9 +1,5 @@
-*.class
-./out/*
-pom.xml
-spider3.iml
-target/
 *.iml
-*.ipr
-*.iws
-.idea/
+/.idea/*
+/out/*
+*.class
+/target/*

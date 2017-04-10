@@ -23,7 +23,7 @@ public class SegmentAddress {
 	//门牌号
 	public static String[] flag1list = {"栋", "号楼", "楼", "座", "型", "阁", "号"};
 	//楼牌号
-	public static String[] flag0list = {"#","号楼", "层", "室", "房","组" , "楼","号"};
+	public static String[] flag0list = {"#", "号楼", "单元", "层", "室", "房","组" , "楼","号"};
 
 	public static String[][] FlagLevel = {flag0list, flag1list,flag2list,flag3list,flag4list,district,city,province};
 
