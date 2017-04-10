@@ -1,4 +1,4 @@
-package cn.segment.Similarity;
+package cn.segmentAndMatch.segment;
 
 import java.util.ArrayList;
 import java.util.HashSet;

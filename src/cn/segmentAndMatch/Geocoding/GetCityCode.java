@@ -1,7 +1,6 @@
-package cn.segment.Geocoding;
+package cn.segmentAndMatch.Geocoding;
 
 import net.sf.json.JSONObject;
-import org.apache.http.client.ClientProtocolException;
 
 import java.io.IOException;
 
@@ -15,16 +14,39 @@ import java.io.IOException;
  *
  */
 public class GetCityCode {
+/*
+	GetLocationString("31.237324", "121.670105");
+	{"country":"中国",
+			"country_code":0,"" +
+			"province":"上海市",
+			"city":"上海市",
+			"district":"浦东新区",
+			"adcode":"310115",
+			"street":"顾唐路",
+			"street_number":"1899",
+			"direction":"附近",
+			"distance":"12"
+	}
+
+
+Cstring = GetLocationString("32.0021400000", "119.6102790000");
+	{"country":"中国",
+			"country_code":0,
+			"province":"江苏省",
+			"city":"镇江市",
+			"district":"丹阳市",
+			"adcode":"321181",
+			"street":"金陵西路辅路",
+			"street_number":"",
+			"direction":"",
+			"distance":""
+	}
+
+*/
+
     
-	public static void main(String[] args) throws ClientProtocolException, IOException {
-        //String Cstring = GetLocationString("32.0021400000", "119.6102790000");
-        String Cstring = GetLocationString("31.237324", "121.670105");
-		System.out.println(Cstring);
-        
-    }
     
-    
-    public static String GetLocationString(String lng, String lat) throws IOException, IOException{
+    public static String GetLocationString(String lat, String lng ) throws IOException, IOException{
     	String ak = "FpGacYmfVbQhNHO51YYGS4v3LR7cgS8P";
     	   
         //逆地理编码,即根据经度纬度来查地址
@@ -45,7 +67,7 @@ public class GetCityCode {
         String province= addressComponentObject.getString("province"); 
         
         String city= addressComponentObject.getString("city");
-        
+        System.out.println(addressComponentObject);
         System.out.println("省份 ：" + province + "   地级市 ：" + city);
         String CodeString = "省份代码 ：" + LocationMap.getProvinceCode(province) + " 地级市代码 ：" + LocationMap.getCityCode(city);
         return CodeString;

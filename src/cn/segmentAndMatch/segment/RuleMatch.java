@@ -1,4 +1,4 @@
-package cn.segment.Similarity;
+package cn.segmentAndMatch.segment;
 
 import java.util.HashSet;
 import java.util.Stack;

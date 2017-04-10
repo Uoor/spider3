@@ -1,4 +1,4 @@
-package cn.segment.Similarity;
+package cn.util;
 
 //java版编辑距离(字符串相似度)算法 levenshtein (edit distance)
 
@@ -36,7 +36,7 @@ public class levenshtein {
                 } else {  
                     cost = 1;  
                 }  
-                d[si][ti] = Math.min(Math.min(d[si-1][ti]+1, d[si][ti-1]+1),d[si-1][ti-1]+cost);  
+                d[si][ti] = Math.min(Math.min(d[si-1][ti]+1, d[si][ti-1]+1),d[si-1][ti-1]+cost);
             }  
         }  
         return d[sLen][tLen];  
@@ -44,7 +44,7 @@ public class levenshtein {
       
     public static double similarity(String src, String tar) {  
         int ld = ld(src, tar);  
-        return 1 - (double) ld / Math.max(src.length(), tar.length());   
+        return 1 - (double) ld / Math.max(src.length(), tar.length());
     }  
       
       

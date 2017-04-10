@@ -1,24 +1,18 @@
-package cn.segment.Geocoding;
+package cn.segmentAndMatch.Geocoding;
 //http://api.map.baidu.com/lbsapi/cloud/webservice-geocoding.htm
 
 import net.sf.json.JSONObject;
-import org.apache.http.client.ClientProtocolException;
 
 import java.io.IOException;
 
 //通过地理位置 得到 坐标
 public class GetGeocoding {
 	
-	public static void main(String[] args) throws ClientProtocolException, IOException {
-		//String Cstring = GetFromAddress("北京市","北京市海淀区上地十街10号");
-		//String Cstring = GetFromAddress("北京市海淀区上地十街10号");
-		String Cstring = GetFromAddress("上海市浦东新区顾唐路1899号");
-		System.out.println(Cstring);
-        
-    }
+
     
     
-    public static String GetFromAddress(String address) throws IOException, IOException{
+    public static String[] GetFromAddress(String address) throws IOException, IOException{
+    	System.out.println("address: " + address);
     	String ak = "FpGacYmfVbQhNHO51YYGS4v3LR7cgS8P";
     	   
         //逆地理编码,即根据经度纬度来查地址
@@ -43,11 +37,13 @@ public class GetGeocoding {
         
         JSONObject locationObject = result.getJSONObject("location");
         
-        Double lng= locationObject.getDouble("lng"); 
+        String lng= locationObject.getString("lng");
         
         String lat= locationObject.getString("lat");
         
-        return lng + "\t" + lat;
+        System.out.println(lng + "\t" + lat);
+        String [] re = {lng, lat};
+        return re;
         
      
     }

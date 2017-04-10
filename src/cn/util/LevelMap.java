@@ -1,4 +1,4 @@
-package cn.segment.Similarity;
+package cn.util;
 
 import java.util.HashSet;
 
@@ -49,7 +49,7 @@ public class LevelMap {
 	
 	
 	public static HashSet<String> getCitySet(){  
-	    //System.out.println("重写无参的构造函数");  
+	    //System.out.println("重写无参的构造函数");
 		citySet.add("石家庄");
 		citySet.add("张家口");
 		citySet.add("承德");
@@ -393,8 +393,17 @@ public class LevelMap {
 		
 		return citySet;
 	}
-	
 
-		
+	public static HashSet<String> getDistrictSet(){
+		districtSet.add("思明");
+		districtSet.add("湖里");
+		districtSet.add("同安");
+		districtSet.add("集美");
+		districtSet.add("海沧");
+		districtSet.add("翔安");
+
+		return districtSet;
+	}
+
  
 }

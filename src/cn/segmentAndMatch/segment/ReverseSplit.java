@@ -1,4 +1,4 @@
-package cn.segment.Similarity;
+package cn.segmentAndMatch.segment;
  
 public class ReverseSplit {
     private String[] dict = null;  //词典

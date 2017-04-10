@@ -1,8 +1,9 @@
-.idea
 *.class
 ./out/*
-out
-.idea
 pom.xml
+spider3.iml
+target/
 *.iml
-/target/
+*.ipr
+*.iws
+.idea/

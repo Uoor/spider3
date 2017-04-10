@@ -1,4 +1,4 @@
-package cn.segment.Geocoding;
+package cn.segmentAndMatch.Geocoding;
 
 /**
  * 

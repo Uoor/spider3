@@ -24,12 +24,12 @@ public class BaiduMap {
 			
 			HashMap<String,String> map = new HashMap<String,String>();
 			
-			String company = URLEncoder.encode("红兴红（厦门）投资集团有限公司","utf-8");
+			String company = URLEncoder.encode("美亚百科","utf-8");
 			/*不需要
 			 * 
 			String city = URLEncoder.encode("","utf-8");
 			*/
-			String compareAddress = "厦门市思明区观音山国际商务营运中心启动区A3地块3号楼3层301单元";
+			//String compareAddress = "厦门市思明区观音山国际商务营运中心启动区A3地块3号楼3层301单元";
 			
 			
 			/*

@@ -1,4 +1,4 @@
-package cn.segment.Geocoding;
+package cn.segmentAndMatch.Geocoding;
 
 import java.util.HashMap;
 import java.util.Map;
